@@ -2,22 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>ShoppingCart</title>
-    <link rel="stylesheet" href="style.css">
 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Shoppingcart</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+        integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style1.css" />
 </head>
 
 <body>
+    <header id="header" class="fixed-top">
+        <div class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><i class="fas fa-shopping-bag"></i>
+            <h1>SHOPPINGCART</h1>
+        </a>
+
+        <div class="left">
+            <div class="search-container">
+                <label for="search" class="fas fa-search"></label>
+                <input type="search" placeholder="search" id="search" />
+            </div>
+
+            <div class="fas fa-shopping-cart"></div>
+        </div>
+
+        <!-- navbar  -->
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#product">product</a></li>
+                <li><a href="#review">review</a></li>
+                <li><a href="#offer">offer</a></li>
+                <li><a href="#newsletter">newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
     <section id="home" class="owl-carousel owl-theme home-slider">
-
         <div class="slide item">
-
             <div class="content text-center text-md-left pl-md-5 ml-md-5">
                 <h1>nike's shoes</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio
-                    odit recusandae nesciunt doloremque nulla velit?</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                    unde excepturi saepe sit optio odit recusandae nesciunt doloremque
+                    nulla velit?
+                </p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -30,18 +82,18 @@
             </div>
 
             <div class="image">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-art/main/images/shoe3.png" alt=""
-                    style="transform:rotate(35deg)">
+                <img src="images/shoe3.png" alt="shoes" style="transform: rotate(35deg)" />
             </div>
-
         </div>
 
         <div class="slide item">
-
             <div class="content text-center text-md-left pl-md-5 ml-md-5">
                 <h1>women's shoes</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio
-                    odit recusandae nesciunt doloremque nulla velit?</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                    unde excepturi saepe sit optio odit recusandae nesciunt doloremque
+                    nulla velit?
+                </p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -54,17 +106,18 @@
             </div>
 
             <div class="image">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/cloth1.png" alt="">
+                <img src="images/cloth1.png" alt="" />
             </div>
-
         </div>
 
         <div class="slide item">
-
             <div class="content text-center text-md-left pl-md-5 ml-md-5">
                 <h1>apple's watch</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio
-                    odit recusandae nesciunt doloremque nulla velit?</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                    unde excepturi saepe sit optio odit recusandae nesciunt doloremque
+                    nulla velit?
+                </p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -77,11 +130,9 @@
             </div>
 
             <div class="image">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/watch4.png" alt="">
+                <img src="images/watch4.png" alt="" />
             </div>
-
         </div>
-
     </section>
 
     <!-- home section ends -->
@@ -89,19 +140,15 @@
     <!-- product section starts  -->
 
     <section id="product">
-
         <h1 class="heading">products</h1>
 
         <div class="product-container">
-
             <h2 class="title">shoes</h2>
 
             <div class="product-slider owl-carousel owl-theme">
-
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shoe1.png" alt="">
+                        <img src="images/shoe1.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -118,8 +165,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -127,13 +177,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shoe2.png" alt="">
+                        <img src="images/shoe2.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -150,8 +198,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -159,13 +210,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shoe3.png" alt="">
+                        <img src="images/shoe3.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -182,8 +231,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -191,13 +243,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shoe4.png" alt="">
+                        <img src="images/shoe4.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -214,8 +264,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -223,13 +276,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shoe5.png" alt="">
+                        <img src="images/shoe5.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -246,8 +297,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -255,25 +309,19 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         <!-- watches  -->
 
         <div class="product-container">
-
             <h2 class="title">watches</h2>
 
             <div class="product-slider owl-carousel owl-theme">
-
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/watch1.png" alt="">
+                        <img src="images/watch1.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -290,8 +338,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -299,13 +350,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/watch2.png" alt="">
+                        <img src="images/watch2.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -322,8 +371,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -331,13 +383,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/watch3.png" alt="">
+                        <img src="images/watch3.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -354,8 +404,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -363,13 +416,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/watch4.png" alt="">
+                        <img src="images/watch4.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -386,8 +437,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -395,25 +449,19 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         <!-- shirts  -->
 
         <div class="product-container">
-
             <h2 class="title">shirts</h2>
 
             <div class="product-slider owl-carousel owl-theme">
-
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shirt1.png" alt="">
+                        <img src="images/shirt1.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -430,8 +478,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -439,13 +490,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shirt2.png" alt="">
+                        <img src="images/shirt2.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -462,8 +511,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -471,13 +523,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shirt3.png" alt="">
+                        <img src="images/shirt3.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -494,8 +544,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -503,13 +556,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/shirt4.png" alt="">
+                        <img src="images/shirt4.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -526,8 +577,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -535,25 +589,19 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         <!-- women's cloths  -->
 
         <div class="product-container">
-
             <h2 class="title">women's cloths</h2>
 
             <div class="product-slider owl-carousel owl-theme">
-
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/cloth1.png" alt="">
+                        <img src="images/cloth1.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -570,8 +618,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -579,13 +630,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/cloth2.png" alt="">
+                        <img src="images/cloth2.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -602,8 +651,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -611,13 +663,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/cloth3.png" alt="">
+                        <img src="images/cloth3.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -634,8 +684,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -643,13 +696,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/cloth4.png" alt="">
+                        <img src="images/cloth4.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -666,8 +717,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -675,13 +729,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="images/cloth5.png" alt="">
+                        <img src="images/cloth5.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -698,8 +750,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -707,25 +762,19 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         <!-- smartphones  -->
 
         <div class="product-container">
-
             <h2 class="title">smartphones</h2>
 
             <div class="product-slider owl-carousel owl-theme">
-
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/phone1.png" alt="">
+                        <img src="images/phone1.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -742,8 +791,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -751,13 +803,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/phone2.png" alt="">
+                        <img src="images/phone2.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -774,8 +824,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -783,13 +836,11 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="product-card item">
-
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/phone3.png" alt="">
+                        <img src="images/phone3.png" alt="" />
                     </div>
 
                     <div class="content">
@@ -806,8 +857,11 @@
 
                     <div class="info">
                         <h4>product info</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem
-                            pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+                            voluptate exercitationem pariatur sunt nihil rem molestiae
+                            accusamus ipsam dignissimos tenetur.
+                        </p>
                         <a href="#"><button>add to cart</button></a>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -815,105 +869,86 @@
                             <a href="#" class="fab fa-instagram"></a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- product section ends -->
 
     <section id="review">
-
         <div class="shape"></div>
 
         <div class="heading">What our customers say</div>
 
         <div class="box-container">
-
             <div class="review-slider owl-carousel owl-theme">
-
                 <div class="box item">
-
                     <div class="comment">
-                        <p><i class="fas fa-quote-left"></i>Awesomeeeeeeee<i class="fas fa-quote-right"></i></p>
+                        <p>
+                            <i class="fas fa-quote-left"></i>Awesomeeeeeeee<i class="fas fa-quote-right"></i>
+                        </p>
                         <h3>--someone's name</h3>
                     </div>
 
                     <div class="image">
-                        <img src="images/pic1.png" alt="">
+                        <img src="images/user1.gif" alt="" />
                     </div>
-
                 </div>
 
                 <div class="box item">
-
                     <div class="comment">
-                        <p><i class="fas fa-quote-left"></i>Good website. Cheap and good quality products and great
-                            availability!<i class="fas fa-quote-right"></i></p>
+                        <p>
+                            <i class="fas fa-quote-left"></i>Good website. Cheap and good
+                            quality products and great availability!<i class="fas fa-quote-right"></i>
+                        </p>
                         <h3>--someone's name</h3>
                     </div>
 
                     <div class="image">
-                        <img src="images/pic2.png" alt="">
+                        <img src="images/user2img.jfif" alt="" />
                     </div>
-
                 </div>
 
                 <div class="box item">
-
                     <div class="comment">
-                        <p><i class="fas fa-quote-left"></i>Badhiya hai vro<i class="fas fa-quote-right"></i></p>
+                        <p>
+                            <i class="fas fa-quote-left"></i>Badhiya hai vro<i class="fas fa-quote-right"></i>
+                        </p>
                         <h3>--someone's name</h3>
                     </div>
 
                     <div class="image">
-                        <img src="images/pic3.png" alt="">
+                        <img src="images/user3.png" alt="" />
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- offer/deal section starts  -->
 
     <section id="offer">
-
-
-
         <div class="images">
-
             <div class="box">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/7f95ad26c8e3a6faeb3c814f37cf90491a99adc6/images/icon1.svg"
-                    alt="">
+                <img src="images/icon1.svg" alt="" />
                 <h3>free shipping</h3>
             </div>
 
             <div class="box">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/7f95ad26c8e3a6faeb3c814f37cf90491a99adc6/images/icon2.svg"
-                    alt="">
+                <img src="images/icon2.svg" alt="" />
                 <h3>easy payments</h3>
             </div>
 
             <div class="box">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/7f95ad26c8e3a6faeb3c814f37cf90491a99adc6/images/icon3.svg"
-                    alt="">
+                <img src="images/icon3.svg" alt="" />
                 <h3>10 days replacements</h3>
             </div>
-
         </div>
         <div class="heading">deal of the day</div>
         <div class="deal">
-
             <div class="image">
-                <img src="https://raw.githubusercontent.com/Lalit1471/shopping-cart/main/images/smartphone.png" alt="">
+                <img src="images/smartphone.png" alt="" />
             </div>
 
             <div class="content">
@@ -929,24 +964,61 @@
                 <div class="price">₹8,000/-</div>
                 <a href="#"><button>add to cart</button></a>
             </div>
-
         </div>
-
     </section>
 
     <!-- offer/deal section ends -->
-     <!-- newsletter section starts  -->
-        
-        <section id="newsletter">
-        
-          <h1>Newsletter</h1>
-          <p>s=Subscribe us for latest updates</p>
-          <input type="submit" value="Subscribe">
-   
-        </section>
-        
-        <!-- newsletter section ends -->
 
+    <!-- newsletter section starts  -->
+
+    <section id="newsletter">
+        <h1>newsletter</h1>
+        <p>subscribe us for latest updates</p>
+        <input type="submit" value="subscribe" />
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- footer section starts  -->
+
+    <section id="footer" class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 text-center brand-info">
+                <a href="#" class="logo"><i class="fas fa-shopping-bag"></i>
+                    <h3>Shoppingcart</h3>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    iure, sed ipsum magnam aperiam quas? Nesciunt atque id ipsam neque.
+                </p>
+            </div>
+
+            <div class="col-md-4 text-center links">
+                <h3>links</h3>
+                <div class="nav-links">
+                    <a href="#home">home</a>
+                    <a href="#product">product</a>
+                    <a href="#review">review</a>
+                    <a href="#offer">offer</a>
+                    <a href="#newsletter">newsletter</a>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center follow-us">
+                <h3>follow us</h3>
+                <div class="follow-us-links">
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="#">pinterest</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- inserting javascript -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
